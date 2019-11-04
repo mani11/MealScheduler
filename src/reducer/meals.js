@@ -13,11 +13,6 @@ const mealReducer = (state = mealsSchedule,action)=>{
 
       }
 
-    // case "GET_ERROR_LIST":
-    //   return {
-    //     errorList:action.invalidGuest.errorList
-    //   }
-
     default:
      return state;
 
