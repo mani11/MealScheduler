@@ -6,13 +6,3 @@ export const addMeal = (guestList=[],errorList=[]) => (
     errorList
   }
 });
-
-// export const addError = (errorList=[]) => (
-//   {
-//     type:"GET_ERROR_LIST",
-//     invalidGuest:{
-//       errorList
-//     }
-//   }
-
-// )
