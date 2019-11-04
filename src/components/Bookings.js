@@ -3,7 +3,7 @@ import {PropTypes} from 'prop-types';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import { connect } from 'react-redux';
-import { addMeal, addError } from '../action/meals';
+import { addMeal } from '../action/meals';
 
 export class Bookings extends Component {
   constructor(props){
